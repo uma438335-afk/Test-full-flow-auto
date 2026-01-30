@@ -19,7 +19,7 @@ jobs:
           project_id: test-github-action-484509
 
       - run: |
-          gcloud run deploy hello-ikea \
+          gcloud run deploy hello-ikea-new \
             --source . \
             --region us-central1 \
             --platform managed \
